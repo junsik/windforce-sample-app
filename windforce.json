@@ -1,0 +1,19 @@
+{
+  "app": "quickstart",
+  "entrypoint": "main.ts",
+  "timeout": 30,
+  "tag": "default",
+  "actions": {
+    "greet.hello": {
+      "inputSchema": "schemas/greet.hello.input.json",
+      "outputSchema": "schemas/greet.hello.output.json"
+    },
+    "greet.echo": {
+      "inputSchema": "schemas/greet.echo.input.json"
+    },
+    "counter.bump": {
+      "inputSchema": "schemas/counter.bump.input.json",
+      "outputSchema": "schemas/counter.bump.output.json"
+    }
+  }
+}

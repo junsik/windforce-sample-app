@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "properties": {
+    "previous": { "type": "integer" },
+    "current": { "type": "integer" },
+    "by": { "type": "integer" },
+    "lastRunAt": { "type": ["string", "null"] }
+  }
+}

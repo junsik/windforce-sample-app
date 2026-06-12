@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Who to greet"
+    },
+    "shout": {
+      "type": "boolean",
+      "description": "Uppercase the greeting"
+    }
+  },
+  "required": ["name"]
+}

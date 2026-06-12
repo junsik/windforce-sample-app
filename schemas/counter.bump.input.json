@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+    "by": {
+      "type": "integer",
+      "description": "Increment amount",
+      "default": 1
+    }
+  }
+}

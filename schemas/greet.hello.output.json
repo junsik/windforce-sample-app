@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "properties": {
+    "greeting": { "type": "string" },
+    "action": { "type": "string" },
+    "trigger": { "type": "string" },
+    "actor": { "type": "string" }
+  }
+}
